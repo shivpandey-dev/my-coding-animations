@@ -1,5 +1,4 @@
-import {CalculateMetadataFunction, Composition} from "remotion";
-import {HelloWorld} from "./animations/javascript/hello-world/HelloWorld";
+import { CalculateMetadataFunction, Composition } from "remotion";
 
 type Props = {};
 
@@ -11,12 +10,16 @@ export const MyComposition = () => {
   return (
     <Composition
       id="MyComp"
-      component={HelloWorld}
-      durationInFrames={90}
+      component={MyComponent}
+      durationInFrames={60}
       fps={30}
       width={1280}
       height={720}
       calculateMetadata={calculateMetadata}
     />
   );
+};
+
+export const MyComponent: React.FC<Props> = () => {
+  return null;
 };
