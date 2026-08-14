@@ -1,0 +1,4 @@
+interface:
+  display_name: "JavaScript Animation Architecture"
+  short_description: "Preserve independent Remotion animations"
+  default_prompt: "Use $javascript-animation-architecture to add a JavaScript animation without changing existing animations."
