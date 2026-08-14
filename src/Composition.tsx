@@ -1,4 +1,5 @@
 import {Composition} from "remotion";
+import {ExecutionContext} from "./animations/javascript/execution-context/ExecutionContext";
 import {FunctionHoisting} from "./animations/javascript/function-hoisting/FunctionHoisting";
 import {HelloWorld} from "./animations/javascript/hello-world/HelloWorld";
 import {Hoisting} from "./animations/javascript/hoisting/Hoisting";
@@ -44,6 +45,14 @@ export const MyComposition = () => {
         id="JS-FunctionHoisting"
         component={FunctionHoisting}
         durationInFrames={640}
+        fps={30}
+        width={1280}
+        height={720}
+      />
+      <Composition
+        id="JS-ExecutionContext"
+        component={ExecutionContext}
+        durationInFrames={660}
         fps={30}
         width={1280}
         height={720}
