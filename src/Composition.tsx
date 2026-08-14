@@ -1,5 +1,6 @@
 import {Composition} from "remotion";
 import {HelloWorld} from "./animations/javascript/hello-world/HelloWorld";
+import {Hoisting} from "./animations/javascript/hoisting/Hoisting";
 import {SpringAnimation} from "./animations/javascript/spring-animation/SpringAnimation";
 
 export const MyComposition = () => {
@@ -17,6 +18,14 @@ export const MyComposition = () => {
         id="SpringAnimation"
         component={SpringAnimation}
         durationInFrames={120}
+        fps={30}
+        width={1280}
+        height={720}
+      />
+      <Composition
+        id="JS-Hoisting"
+        component={Hoisting}
+        durationInFrames={390}
         fps={30}
         width={1280}
         height={720}
