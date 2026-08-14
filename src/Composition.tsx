@@ -1,4 +1,10 @@
-import { CalculateMetadataFunction, Composition } from "remotion";
+import {
+  AbsoluteFill,
+  CalculateMetadataFunction,
+  Composition,
+  interpolate,
+  useCurrentFrame,
+} from "remotion";
 
 type Props = {};
 
@@ -11,7 +17,7 @@ export const MyComposition = () => {
     <Composition
       id="MyComp"
       component={MyComponent}
-      durationInFrames={60}
+      durationInFrames={90}
       fps={30}
       width={1280}
       height={720}
@@ -21,5 +27,39 @@ export const MyComposition = () => {
 };
 
 export const MyComponent: React.FC<Props> = () => {
-  return null;
+  const frame = useCurrentFrame();
+
+  return (
+    <AbsoluteFill
+      style={{
+        alignItems: "center",
+        backgroundColor: "#0f172a",
+        justifyContent: "center",
+      }}
+    >
+      <div
+        style={{
+          color: "white",
+          fontFamily: "Arial, sans-serif",
+          fontSize: 80,
+          fontWeight: 700,
+          opacity: interpolate(frame, [0, 30], [0, 1], {
+            extrapolateLeft: "clamp",
+            extrapolateRight: "clamp",
+          }),
+          translate: interpolate(
+            frame,
+            [0, 30],
+            ["-500px 0px", "0px 0px"],
+            {
+              extrapolateLeft: "clamp",
+              extrapolateRight: "clamp",
+            },
+          ),
+        }}
+      >
+        Hello JavaScript 👋
+      </div>
+    </AbsoluteFill>
+  );
 };
