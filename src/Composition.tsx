@@ -1,22 +1,15 @@
-import {CalculateMetadataFunction, Composition} from "remotion";
-import {HelloWorld} from "./animations/javascript/hello-world/HelloWorld";
-
-type Props = {};
-
-const calculateMetadata: CalculateMetadataFunction<Props> = () => {
-  return {};
-};
+import {Composition} from "remotion";
+import {SpringAnimation} from "./animations/javascript/spring-animation/SpringAnimation";
 
 export const MyComposition = () => {
   return (
     <Composition
-      id="MyComp"
-      component={HelloWorld}
-      durationInFrames={90}
+      id="SpringAnimation"
+      component={SpringAnimation}
+      durationInFrames={120}
       fps={30}
       width={1280}
       height={720}
-      calculateMetadata={calculateMetadata}
     />
   );
 };
