@@ -1,5 +1,6 @@
 import {Composition, Folder} from "remotion";
 import {ExecutionContext} from "./animations/javascript/execution-context/ExecutionContext";
+import {CallStack, CALL_STACK_DURATION} from "./animations/javascript/call-stack/CallStack";
 import {FunctionHoisting} from "./animations/javascript/function-hoisting/FunctionHoisting";
 import {HelloWorld} from "./animations/javascript/hello-world/HelloWorld";
 import {Hoisting} from "./animations/javascript/hoisting/Hoisting";
@@ -10,54 +11,64 @@ import {DesignSystemShowcase} from "./compositions/design-system/DesignSystemSho
 export const MyComposition = () => {
   return (
     <>
-      <Composition
-        id="HelloWorld"
-        component={HelloWorld}
-        durationInFrames={90}
-        fps={30}
-        width={1280}
-        height={720}
-      />
-      <Composition
-        id="SpringAnimation"
-        component={SpringAnimation}
-        durationInFrames={120}
-        fps={30}
-        width={1280}
-        height={720}
-      />
-      <Composition
-        id="JS-Hoisting"
-        component={Hoisting}
-        durationInFrames={390}
-        fps={30}
-        width={1280}
-        height={720}
-      />
-      <Composition
-        id="JS-LetConstHoisting"
-        component={LetConstHoisting}
-        durationInFrames={540}
-        fps={30}
-        width={1280}
-        height={720}
-      />
-      <Composition
-        id="JS-FunctionHoisting"
-        component={FunctionHoisting}
-        durationInFrames={640}
-        fps={30}
-        width={1280}
-        height={720}
-      />
-      <Composition
-        id="JS-ExecutionContext"
-        component={ExecutionContext}
-        durationInFrames={660}
-        fps={30}
-        width={1280}
-        height={720}
-      />
+      <Folder name="JavaScript">
+        <Composition
+          id="HelloWorld"
+          component={HelloWorld}
+          durationInFrames={90}
+          fps={30}
+          width={1280}
+          height={720}
+        />
+        <Composition
+          id="SpringAnimation"
+          component={SpringAnimation}
+          durationInFrames={120}
+          fps={30}
+          width={1280}
+          height={720}
+        />
+        <Composition
+          id="JS-Hoisting"
+          component={Hoisting}
+          durationInFrames={390}
+          fps={30}
+          width={1280}
+          height={720}
+        />
+        <Composition
+          id="JS-LetConstHoisting"
+          component={LetConstHoisting}
+          durationInFrames={540}
+          fps={30}
+          width={1280}
+          height={720}
+        />
+        <Composition
+          id="JS-FunctionHoisting"
+          component={FunctionHoisting}
+          durationInFrames={640}
+          fps={30}
+          width={1280}
+          height={720}
+        />
+        <Composition
+          id="JS-ExecutionContext"
+          component={ExecutionContext}
+          durationInFrames={660}
+          fps={30}
+          width={1280}
+          height={720}
+        />
+        <Composition
+          id="JS-CallStack"
+          component={CallStack}
+          durationInFrames={CALL_STACK_DURATION}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+      </Folder>
       <Folder name="Internal">
         <Composition
           id="DesignSystemShowcase"
