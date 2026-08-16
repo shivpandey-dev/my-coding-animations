@@ -5,6 +5,7 @@ import {FunctionHoisting} from "./animations/javascript/function-hoisting/Functi
 import {HelloWorld} from "./animations/javascript/hello-world/HelloWorld";
 import {Hoisting} from "./animations/javascript/hoisting/Hoisting";
 import {LetConstHoisting} from "./animations/javascript/let-const-hoisting/LetConstHoisting";
+import {LexicalScope, LEXICAL_SCOPE_DURATION} from "./animations/javascript/lexical-scope/LexicalScope";
 import {SpringAnimation} from "./animations/javascript/spring-animation/SpringAnimation";
 import {DesignSystemShowcase} from "./compositions/design-system/DesignSystemShowcase";
 
@@ -64,6 +65,14 @@ export const MyComposition = () => {
           id="JS-CallStack"
           component={CallStack}
           durationInFrames={CALL_STACK_DURATION}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+        <Composition
+          id="JS-LexicalScope"
+          component={LexicalScope}
+          durationInFrames={LEXICAL_SCOPE_DURATION}
           fps={30}
           width={1080}
           height={1920}
