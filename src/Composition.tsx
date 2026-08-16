@@ -1,10 +1,11 @@
-import {Composition} from "remotion";
+import {Composition, Folder} from "remotion";
 import {ExecutionContext} from "./animations/javascript/execution-context/ExecutionContext";
 import {FunctionHoisting} from "./animations/javascript/function-hoisting/FunctionHoisting";
 import {HelloWorld} from "./animations/javascript/hello-world/HelloWorld";
 import {Hoisting} from "./animations/javascript/hoisting/Hoisting";
 import {LetConstHoisting} from "./animations/javascript/let-const-hoisting/LetConstHoisting";
 import {SpringAnimation} from "./animations/javascript/spring-animation/SpringAnimation";
+import {DesignSystemShowcase} from "./compositions/design-system/DesignSystemShowcase";
 
 export const MyComposition = () => {
   return (
@@ -57,6 +58,16 @@ export const MyComposition = () => {
         width={1280}
         height={720}
       />
+      <Folder name="Internal">
+        <Composition
+          id="DesignSystemShowcase"
+          component={DesignSystemShowcase}
+          durationInFrames={180}
+          fps={30}
+          width={1280}
+          height={720}
+        />
+      </Folder>
     </>
   );
 };
