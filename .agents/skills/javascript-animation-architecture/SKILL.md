@@ -9,18 +9,18 @@ Read `RULE.md` at the repository root before taking action. Treat it as the cano
 
 ## Workflow
 
-1. Inspect `src/Composition.tsx` and the existing `src/animations/javascript` tree before editing.
+1. Inspect `src/registry/javascript.tsx` and the existing `src/animations/javascript` tree before editing.
 2. Preserve all existing animation files, component names, composition registrations, and composition IDs unless the user explicitly requests a specific change to them.
 3. Create each new implementation at `src/animations/javascript/<animation-name>/<ComponentName>.tsx`.
 4. Keep all animation markup, hooks, timing logic, styles, and helpers in that animation's folder. Extract additional local files there when useful.
-5. Change `src/Composition.tsx` only to import the component and add its `<Composition />` registration and metadata.
+5. Change `src/registry/javascript.tsx` only to import the component and add its `<Composition />` registration and metadata. Leave `src/Composition.tsx` alone.
 6. Give the composition a unique, stable ID. Check all current registrations before choosing it.
 7. Resolve merge conflicts additively: retain every independent component import and composition registration.
 8. Run `npm run lint` and fix failures introduced by the work.
 
 ## Guardrails
 
-- Never implement an animation directly in `src/Composition.tsx`.
+- Never implement an animation directly in `src/Composition.tsx` or `src/registry/`.
 - Never overwrite an existing registration to add a new one.
 - Never modify, move, rename, combine, or delete an existing animation component without explicit user authorization.
 - Never reuse a composition ID.
