@@ -1,0 +1,31 @@
+name: Sync category branch into main
+
+on:
+  push:
+    branches: [Javascript, NodeJs, Aws]
+  # Run manually from a category branch: Actions > this workflow > "Use workflow from".
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+# One sync at a time so two category pushes never race on main.
+concurrency:
+  group: sync-to-main
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      # The script lives on the category branch; copy it out before switching to main.
+      - name: Merge into main
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cp .github/scripts/sync-to-main.sh "$RUNNER_TEMP/sync-to-main.sh"
+          bash "$RUNNER_TEMP/sync-to-main.sh" "${{ github.ref_name }}"
