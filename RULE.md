@@ -35,7 +35,7 @@ Every new animation must be registered with a unique, stable composition `id` so
 ## Existing animations
 
 - Do not modify, move, rename, combine, or delete existing animation components unless the user explicitly requests that exact change.
-- Do not replace existing composition registrations when adding a new animation.
+- Do not replace existing composition registrations when adding an animation.
 - Preserve all existing compositions and their IDs during feature-branch merges.
 - Resolve merge conflicts additively so every independent animation remains available.
 
