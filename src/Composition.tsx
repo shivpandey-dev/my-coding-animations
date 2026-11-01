@@ -1,37 +1,19 @@
-import {Composition, Folder} from "remotion";
-import {SpringAnimation} from "./animations/javascript/spring-animation/SpringAnimation";
-import {DesignSystemShowcase} from "./compositions/design-system/DesignSystemShowcase";
-import {NODE_TYPESCRIPT_DURATION, NodeTypeScriptExecution} from "./animations/javascript/node-typescript-execution/NodeTypeScriptExecution";
+import {AwsCompositions} from "./registry/aws";
+import {InternalCompositions} from "./registry/internal";
+import {JavascriptCompositions} from "./registry/javascript";
+import {NewsCompositions} from "./registry/news";
+import {NodeJsCompositions} from "./registry/nodejs";
 
+// Each category registers its own compositions in src/registry/<category>.tsx,
+// so category branches never edit this file and merge into main without conflicts.
 export const MyComposition = () => {
   return (
     <>
-      <Composition
-        id="SpringAnimation"
-        component={SpringAnimation}
-        durationInFrames={120}
-        fps={30}
-        width={1280}
-        height={720}
-      />
-      <Composition
-        id="NodeTypeScriptExecution"
-        component={NodeTypeScriptExecution}
-        durationInFrames={NODE_TYPESCRIPT_DURATION}
-        fps={30}
-        width={1080}
-        height={1920}
-      />
-      <Folder name="Internal">
-        <Composition
-          id="DesignSystemShowcase"
-          component={DesignSystemShowcase}
-          durationInFrames={180}
-          fps={30}
-          width={1280}
-          height={720}
-        />
-      </Folder>
+      <JavascriptCompositions />
+      <NodeJsCompositions />
+      <AwsCompositions />
+      <NewsCompositions />
+      <InternalCompositions />
     </>
   );
 };
