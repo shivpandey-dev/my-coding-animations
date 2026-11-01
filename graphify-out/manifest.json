@@ -18,15 +18,15 @@
     "semantic_hash": ""
   },
   "skills-lock.json": {
-    "mtime": 1793518707.1654253,
-    "seen": 1793519374.339961,
+    "mtime": 1793520888.5790582,
+    "seen": 1793521929.037766,
     "ast_hash": "7ebe4803aa1ef3c1a75a24044195e899",
     "semantic_hash": ""
   },
   "src/Composition.tsx": {
-    "mtime": 1793520166.4775343,
-    "seen": 1793520370.24858,
-    "ast_hash": "2b0d5e336c3960dcaca27762bf554933",
+    "mtime": 1793523498.9043138,
+    "seen": 1793523505.444393,
+    "ast_hash": "c13806149bb6cbe05d85c0661a190476",
     "semantic_hash": ""
   },
   "src/Root.tsx": {
@@ -222,75 +222,321 @@
     "semantic_hash": ""
   },
   "RULE.md": {
-    "mtime": 1786959944.4296486,
-    "seen": 1793519374.3400111,
-    "ast_hash": "a15db0bc3c2dbcae04d54312ba041ed0",
+    "mtime": 1793523498.903769,
+    "seen": 1793523505.444701,
+    "ast_hash": "f47a252d79f788f0a9a899c57bdc1207",
     "semantic_hash": ""
   },
   "CLAUDE.md": {
-    "mtime": 1793519409.4618876,
-    "seen": 1793520036.9033668,
+    "mtime": 1793520888.5631042,
+    "seen": 1793521929.037861,
     "ast_hash": "67d88e9d0760c3ba54c75dfd9551c1c5",
     "semantic_hash": ""
   },
   "src/animations/javascript/onepassword-agents-broll/AvailabilityScene.tsx": {
-    "mtime": 1793520155.6376011,
-    "seen": 1793520370.248588,
+    "mtime": 1793520888.5810096,
+    "seen": 1793521929.0377731,
     "ast_hash": "e05feed36deee1fa121e3e785265bded",
     "semantic_hash": ""
   },
   "src/animations/javascript/onepassword-agents-broll/BouncerScene.tsx": {
-    "mtime": 1793520387.5626445,
-    "seen": 1793520408.203257,
+    "mtime": 1793520888.5815294,
+    "seen": 1793521929.037775,
     "ast_hash": "4e5e3cb15517e5803a9f3d4684b3ffd6",
     "semantic_hash": ""
   },
   "src/animations/javascript/onepassword-agents-broll/CtaScene.tsx": {
-    "mtime": 1793520155.8374467,
-    "seen": 1793520370.248595,
+    "mtime": 1793520888.5820086,
+    "seen": 1793521929.037778,
     "ast_hash": "80aa38376ad478144eab2bc6ec9a84ca",
     "semantic_hash": ""
   },
   "src/animations/javascript/onepassword-agents-broll/EnvRiskScene.tsx": {
-    "mtime": 1793520106.095848,
-    "seen": 1793520370.248598,
+    "mtime": 1793520888.582612,
+    "seen": 1793521929.03778,
     "ast_hash": "11ab1a110058f128efa6c5e71618ddc0",
     "semantic_hash": ""
   },
   "src/animations/javascript/onepassword-agents-broll/FlowScene.tsx": {
-    "mtime": 1793520106.0032103,
-    "seen": 1793520370.2486038,
+    "mtime": 1793520888.5832112,
+    "seen": 1793521929.037782,
     "ast_hash": "8c1d3b57dfa8cda120fc7194693d184c",
     "semantic_hash": ""
   },
   "src/animations/javascript/onepassword-agents-broll/HookScene.tsx": {
-    "mtime": 1793520351.38199,
-    "seen": 1793520370.248607,
+    "mtime": 1793520888.5837834,
+    "seen": 1793521929.037784,
     "ast_hash": "7bebe6ead0aadd3c5f719c9e470946c3",
     "semantic_hash": ""
   },
   "src/animations/javascript/onepassword-agents-broll/MustKnowScene.tsx": {
-    "mtime": 1793520155.7915876,
-    "seen": 1793520370.24861,
+    "mtime": 1793520888.584518,
+    "seen": 1793521929.037786,
     "ast_hash": "48b1ed721183189edeaf94f1206d3043",
     "semantic_hash": ""
   },
   "src/animations/javascript/onepassword-agents-broll/OnePasswordAgentsBroll.tsx": {
-    "mtime": 1793520156.0237172,
-    "seen": 1793520370.248613,
+    "mtime": 1793520888.5850227,
+    "seen": 1793521929.037788,
     "ast_hash": "24e60fdd94e972cb25fd513a5e83bc95",
     "semantic_hash": ""
   },
   "src/animations/javascript/onepassword-agents-broll/TitleScene.tsx": {
-    "mtime": 1793520105.898397,
-    "seen": 1793520370.248616,
+    "mtime": 1793520888.5857449,
+    "seen": 1793521929.03779,
     "ast_hash": "c7414bf054385e9efbab719652aa7519",
     "semantic_hash": ""
   },
   "src/animations/javascript/onepassword-agents-broll/shared.tsx": {
-    "mtime": 1793520290.1936107,
-    "seen": 1793520370.248619,
+    "mtime": 1793520888.5862536,
+    "seen": 1793521929.037792,
     "ast_hash": "673d5ae55ba93014768f146580e55ce2",
+    "semantic_hash": ""
+  },
+  ".github/scripts/sync-to-main.sh": {
+    "mtime": 1793523498.9026842,
+    "seen": 1793523505.4443588,
+    "ast_hash": "f825fc78a4a728b21943ba73d04030f3",
+    "semantic_hash": ""
+  },
+  "src/animations/javascript/call-stack/CallStack.tsx": {
+    "mtime": 1793523498.9047706,
+    "seen": 1793523505.4444008,
+    "ast_hash": "88369bbbc6aa9471d8962a5461037d0e",
+    "semantic_hash": ""
+  },
+  "src/animations/javascript/execution-context/ExecutionContext.tsx": {
+    "mtime": 1793523498.9052193,
+    "seen": 1793523505.444405,
+    "ast_hash": "8dce2c00db1d3fae8c669273b9a280b4",
+    "semantic_hash": ""
+  },
+  "src/animations/javascript/function-hoisting/FunctionHoisting.tsx": {
+    "mtime": 1793523498.9057252,
+    "seen": 1793523505.4444082,
+    "ast_hash": "63df1a9cccdb6b1d1190bb4f3cfe638d",
+    "semantic_hash": ""
+  },
+  "src/animations/javascript/hello-world/HelloWorld.tsx": {
+    "mtime": 1793523498.9060836,
+    "seen": 1793523505.444412,
+    "ast_hash": "2e968805cbd4671a3ceae38092a3a96c",
+    "semantic_hash": ""
+  },
+  "src/animations/javascript/hoisting/Hoisting.tsx": {
+    "mtime": 1793523498.9065826,
+    "seen": 1793523505.444415,
+    "ast_hash": "76292a0d7200dd0e32b3da0ef651e9a8",
+    "semantic_hash": ""
+  },
+  "src/animations/javascript/let-const-hoisting/LetConstHoisting.tsx": {
+    "mtime": 1793523498.9070745,
+    "seen": 1793523505.444418,
+    "ast_hash": "5c197560c49099fe45765c669ac36933",
+    "semantic_hash": ""
+  },
+  "src/animations/javascript/lexical-scope/LexicalScope.tsx": {
+    "mtime": 1793523498.9076626,
+    "seen": 1793523505.444421,
+    "ast_hash": "3a6cc6c0d9b411e738f349bee316ab8f",
+    "semantic_hash": ""
+  },
+  "src/aws-12-services/Aws12Services.tsx": {
+    "mtime": 1793523498.9082775,
+    "seen": 1793523505.4444668,
+    "ast_hash": "a21cdec8cff8393c26db9bbebbbbf55a",
+    "semantic_hash": ""
+  },
+  "src/aws-12-services/components/ArchitectureNode.tsx": {
+    "mtime": 1793523498.9089284,
+    "seen": 1793523505.44447,
+    "ast_hash": "bc6aa8328f102ab1cfc226cfe64b1e88",
+    "semantic_hash": ""
+  },
+  "src/aws-12-services/components/AwsServiceBadge.tsx": {
+    "mtime": 1793523498.909357,
+    "seen": 1793523505.444473,
+    "ast_hash": "b75b151ee93dace3738ba7074ee8cf1b",
+    "semantic_hash": ""
+  },
+  "src/aws-12-services/components/ConnectionLine.tsx": {
+    "mtime": 1793523498.909702,
+    "seen": 1793523505.444476,
+    "ast_hash": "75aab1fe1d1f380dc3bd1b29cd9d81fb",
+    "semantic_hash": ""
+  },
+  "src/aws-12-services/components/DatabaseNode.tsx": {
+    "mtime": 1793523498.9101152,
+    "seen": 1793523505.444479,
+    "ast_hash": "a64f42f1f8a728f0678c452503d0dc0e",
+    "semantic_hash": ""
+  },
+  "src/aws-12-services/components/SceneLayout.tsx": {
+    "mtime": 1793523498.91038,
+    "seen": 1793523505.444482,
+    "ast_hash": "9b34efa48b1a3ae4acddca09db4d9dca",
+    "semantic_hash": ""
+  },
+  "src/aws-12-services/components/ServerNode.tsx": {
+    "mtime": 1793523498.910633,
+    "seen": 1793523505.4444852,
+    "ast_hash": "8cbc970adb99822f53efe5d826a0915b",
+    "semantic_hash": ""
+  },
+  "src/aws-12-services/components/ServiceHeader.tsx": {
+    "mtime": 1793523498.910918,
+    "seen": 1793523505.444488,
+    "ast_hash": "6455e5bb8d7d84b4e654d4baa51ac2a2",
+    "semantic_hash": ""
+  },
+  "src/aws-12-services/components/StorageNode.tsx": {
+    "mtime": 1793523498.9111896,
+    "seen": 1793523505.444491,
+    "ast_hash": "97c5b090b4c41c081095eb77bd0550fe",
+    "semantic_hash": ""
+  },
+  "src/aws-12-services/components/TrafficPacket.tsx": {
+    "mtime": 1793523498.9114788,
+    "seen": 1793523505.444494,
+    "ast_hash": "e64e8e999841dd1f6d9dbff4a329f995",
+    "semantic_hash": ""
+  },
+  "src/aws-12-services/scenes/AutoScalingScene.tsx": {
+    "mtime": 1793523498.9119263,
+    "seen": 1793523505.4444978,
+    "ast_hash": "efa492eb3cd0348753a0e7db888fe19a",
+    "semantic_hash": ""
+  },
+  "src/aws-12-services/scenes/CTAScene.tsx": {
+    "mtime": 1793523498.912269,
+    "seen": 1793523505.4445,
+    "ast_hash": "c9a0e26baa01edf71b8141b383e4ca0b",
+    "semantic_hash": ""
+  },
+  "src/aws-12-services/scenes/CloudFrontScene.tsx": {
+    "mtime": 1793523498.913023,
+    "seen": 1793523505.444504,
+    "ast_hash": "768df1f94ae1b7e546e0208a07344db6",
+    "semantic_hash": ""
+  },
+  "src/aws-12-services/scenes/CloudWatchScene.tsx": {
+    "mtime": 1793523498.9133255,
+    "seen": 1793523505.444507,
+    "ast_hash": "dd5c6aac92d879c601acc9e369d127ea",
+    "semantic_hash": ""
+  },
+  "src/aws-12-services/scenes/EC2Scene.tsx": {
+    "mtime": 1793523498.9136572,
+    "seen": 1793523505.44451,
+    "ast_hash": "8af6cd5f34c913675f2b4b726a75913f",
+    "semantic_hash": ""
+  },
+  "src/aws-12-services/scenes/ECRScene.tsx": {
+    "mtime": 1793523498.9140728,
+    "seen": 1793523505.444513,
+    "ast_hash": "67c58113bc172f223d092cd9d4bdc917",
+    "semantic_hash": ""
+  },
+  "src/aws-12-services/scenes/EKSScene.tsx": {
+    "mtime": 1793523498.914365,
+    "seen": 1793523505.4445162,
+    "ast_hash": "a551af5b7e8a8eb9c76f5d4a949161b0",
+    "semantic_hash": ""
+  },
+  "src/aws-12-services/scenes/IAMScene.tsx": {
+    "mtime": 1793523498.9146402,
+    "seen": 1793523505.4445188,
+    "ast_hash": "80624a3ede631b263acf494ea1e3a718",
+    "semantic_hash": ""
+  },
+  "src/aws-12-services/scenes/IntroScene.tsx": {
+    "mtime": 1793523498.9148927,
+    "seen": 1793523505.444522,
+    "ast_hash": "fcf121a0602194fe53e92bdfb52047cc",
+    "semantic_hash": ""
+  },
+  "src/aws-12-services/scenes/LoadBalancerScene.tsx": {
+    "mtime": 1793523498.9151373,
+    "seen": 1793523505.444525,
+    "ast_hash": "7f9e929ba75d2e47278c10bf2f27c843",
+    "semantic_hash": ""
+  },
+  "src/aws-12-services/scenes/RDSScene.tsx": {
+    "mtime": 1793523498.9156046,
+    "seen": 1793523505.444528,
+    "ast_hash": "9b83e891685f9605a517b8e586be022c",
+    "semantic_hash": ""
+  },
+  "src/aws-12-services/scenes/Route53Scene.tsx": {
+    "mtime": 1793523498.9159064,
+    "seen": 1793523505.444531,
+    "ast_hash": "885b1bbf793763daad7c59c733b501d4",
+    "semantic_hash": ""
+  },
+  "src/aws-12-services/scenes/S3Scene.tsx": {
+    "mtime": 1793523498.9161806,
+    "seen": 1793523505.444535,
+    "ast_hash": "65f9b28de4782e5900e8d1e06646bd8b",
+    "semantic_hash": ""
+  },
+  "src/aws-12-services/scenes/SummaryScene.tsx": {
+    "mtime": 1793523498.916423,
+    "seen": 1793523505.444538,
+    "ast_hash": "47b19bd0cb4bce1df6173f02abbe444a",
+    "semantic_hash": ""
+  },
+  "src/aws-12-services/scenes/VPCScene.tsx": {
+    "mtime": 1793523498.9166763,
+    "seen": 1793523505.444541,
+    "ast_hash": "19b4aba48c7b987e9ae43a522a095e45",
+    "semantic_hash": ""
+  },
+  "src/aws-12-services/theme.ts": {
+    "mtime": 1793523498.916922,
+    "seen": 1793523505.444543,
+    "ast_hash": "7ccd11d542508e2236fee8b358371d1e",
+    "semantic_hash": ""
+  },
+  "src/components/reel/ReelEducationLayout.tsx": {
+    "mtime": 1793523498.9174187,
+    "seen": 1793523505.444546,
+    "ast_hash": "ab0f2a686c8e0e550c3cd93930d62fb2",
+    "semantic_hash": ""
+  },
+  "src/registry/aws.tsx": {
+    "mtime": 1793523498.917805,
+    "seen": 1793523505.444679,
+    "ast_hash": "67316476334a6af165cb767dc4f2caa8",
+    "semantic_hash": ""
+  },
+  "src/registry/internal.tsx": {
+    "mtime": 1793523498.9180596,
+    "seen": 1793523505.444681,
+    "ast_hash": "831ae6e7765a56fc7f7588ac6eaf28cf",
+    "semantic_hash": ""
+  },
+  "src/registry/javascript.tsx": {
+    "mtime": 1793523498.9183018,
+    "seen": 1793523505.4446862,
+    "ast_hash": "b3249d4452542cb52f2d5b43548a816b",
+    "semantic_hash": ""
+  },
+  "src/registry/news.tsx": {
+    "mtime": 1793523498.9187381,
+    "seen": 1793523505.4446878,
+    "ast_hash": "f82fb7a4607d0165892b8fa7cb5270b7",
+    "semantic_hash": ""
+  },
+  "src/registry/nodejs.tsx": {
+    "mtime": 1793523498.918998,
+    "seen": 1793523505.4446888,
+    "ast_hash": "7ab6f7f646cfbecdf0d41d173edc0ddc",
+    "semantic_hash": ""
+  },
+  ".github/workflows/sync-to-main.yml": {
+    "mtime": 1793523498.9031851,
+    "seen": 1793523505.444694,
+    "ast_hash": "8428d541c2098c3f87fef312c798e359",
     "semantic_hash": ""
   }
 }
