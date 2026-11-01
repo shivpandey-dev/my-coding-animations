@@ -24,9 +24,9 @@
     "semantic_hash": ""
   },
   "src/Composition.tsx": {
-    "mtime": 1793518813.0698566,
-    "seen": 1793519374.339962,
-    "ast_hash": "0e96cc847e598b5d6f23acf17f9b349e",
+    "mtime": 1793520166.4775343,
+    "seen": 1793520370.24858,
+    "ast_hash": "2b0d5e336c3960dcaca27762bf554933",
     "semantic_hash": ""
   },
   "src/Root.tsx": {
@@ -225,6 +225,72 @@
     "mtime": 1786959944.4296486,
     "seen": 1793519374.3400111,
     "ast_hash": "a15db0bc3c2dbcae04d54312ba041ed0",
+    "semantic_hash": ""
+  },
+  "CLAUDE.md": {
+    "mtime": 1793519409.4618876,
+    "seen": 1793520036.9033668,
+    "ast_hash": "67d88e9d0760c3ba54c75dfd9551c1c5",
+    "semantic_hash": ""
+  },
+  "src/animations/javascript/onepassword-agents-broll/AvailabilityScene.tsx": {
+    "mtime": 1793520155.6376011,
+    "seen": 1793520370.248588,
+    "ast_hash": "e05feed36deee1fa121e3e785265bded",
+    "semantic_hash": ""
+  },
+  "src/animations/javascript/onepassword-agents-broll/BouncerScene.tsx": {
+    "mtime": 1793520387.5626445,
+    "seen": 1793520408.203257,
+    "ast_hash": "4e5e3cb15517e5803a9f3d4684b3ffd6",
+    "semantic_hash": ""
+  },
+  "src/animations/javascript/onepassword-agents-broll/CtaScene.tsx": {
+    "mtime": 1793520155.8374467,
+    "seen": 1793520370.248595,
+    "ast_hash": "80aa38376ad478144eab2bc6ec9a84ca",
+    "semantic_hash": ""
+  },
+  "src/animations/javascript/onepassword-agents-broll/EnvRiskScene.tsx": {
+    "mtime": 1793520106.095848,
+    "seen": 1793520370.248598,
+    "ast_hash": "11ab1a110058f128efa6c5e71618ddc0",
+    "semantic_hash": ""
+  },
+  "src/animations/javascript/onepassword-agents-broll/FlowScene.tsx": {
+    "mtime": 1793520106.0032103,
+    "seen": 1793520370.2486038,
+    "ast_hash": "8c1d3b57dfa8cda120fc7194693d184c",
+    "semantic_hash": ""
+  },
+  "src/animations/javascript/onepassword-agents-broll/HookScene.tsx": {
+    "mtime": 1793520351.38199,
+    "seen": 1793520370.248607,
+    "ast_hash": "7bebe6ead0aadd3c5f719c9e470946c3",
+    "semantic_hash": ""
+  },
+  "src/animations/javascript/onepassword-agents-broll/MustKnowScene.tsx": {
+    "mtime": 1793520155.7915876,
+    "seen": 1793520370.24861,
+    "ast_hash": "48b1ed721183189edeaf94f1206d3043",
+    "semantic_hash": ""
+  },
+  "src/animations/javascript/onepassword-agents-broll/OnePasswordAgentsBroll.tsx": {
+    "mtime": 1793520156.0237172,
+    "seen": 1793520370.248613,
+    "ast_hash": "24e60fdd94e972cb25fd513a5e83bc95",
+    "semantic_hash": ""
+  },
+  "src/animations/javascript/onepassword-agents-broll/TitleScene.tsx": {
+    "mtime": 1793520105.898397,
+    "seen": 1793520370.248616,
+    "ast_hash": "c7414bf054385e9efbab719652aa7519",
+    "semantic_hash": ""
+  },
+  "src/animations/javascript/onepassword-agents-broll/shared.tsx": {
+    "mtime": 1793520290.1936107,
+    "seen": 1793520370.248619,
+    "ast_hash": "673d5ae55ba93014768f146580e55ce2",
     "semantic_hash": ""
   }
 }
