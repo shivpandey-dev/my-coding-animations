@@ -528,15 +528,27 @@
     "semantic_hash": ""
   },
   "src/registry/nodejs.tsx": {
-    "mtime": 1793523498.918998,
-    "seen": 1793523505.4446888,
-    "ast_hash": "7ab6f7f646cfbecdf0d41d173edc0ddc",
+    "mtime": 1793524115.7390718,
+    "seen": 1793524124.982773,
+    "ast_hash": "e99510185e3e5935b02e6595d62d3bcd",
     "semantic_hash": ""
   },
   ".github/workflows/sync-to-main.yml": {
     "mtime": 1793523498.9031851,
     "seen": 1793523505.444694,
     "ast_hash": "8428d541c2098c3f87fef312c798e359",
+    "semantic_hash": ""
+  },
+  "src/animations/javascript/node-typescript-execution/NodeTypeScriptExecution.tsx": {
+    "mtime": 1793524115.737018,
+    "seen": 1793524124.982581,
+    "ast_hash": "6f9839eb318d6a2f61cd6a54db4519c7",
+    "semantic_hash": ""
+  },
+  "src/animations/javascript/node-typescript-execution/Scenes.tsx": {
+    "mtime": 1793524115.7377577,
+    "seen": 1793524124.982583,
+    "ast_hash": "2a83df7648b309783b24d666a71ceab4",
     "semantic_hash": ""
   }
 }
