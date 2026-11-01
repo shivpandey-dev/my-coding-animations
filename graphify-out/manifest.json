@@ -1,0 +1,230 @@
+{
+  "eslint.config.mjs": {
+    "mtime": 1785488538.0,
+    "seen": 1793519374.33995,
+    "ast_hash": "e20d59bb6b64567da14d80c3da2c6b15",
+    "semantic_hash": ""
+  },
+  "package.json": {
+    "mtime": 1786864978.7718675,
+    "seen": 1793519374.339956,
+    "ast_hash": "5a59a39a80cfef191eb8857ed2c74e77",
+    "semantic_hash": ""
+  },
+  "remotion.config.ts": {
+    "mtime": 1786740466.1989572,
+    "seen": 1793519374.3399591,
+    "ast_hash": "101da99e748d4f02b3060c1d3de78684",
+    "semantic_hash": ""
+  },
+  "skills-lock.json": {
+    "mtime": 1793518707.1654253,
+    "seen": 1793519374.339961,
+    "ast_hash": "7ebe4803aa1ef3c1a75a24044195e899",
+    "semantic_hash": ""
+  },
+  "src/Composition.tsx": {
+    "mtime": 1793518813.0698566,
+    "seen": 1793519374.339962,
+    "ast_hash": "0e96cc847e598b5d6f23acf17f9b349e",
+    "semantic_hash": ""
+  },
+  "src/Root.tsx": {
+    "mtime": 1786740466.199174,
+    "seen": 1793519374.339964,
+    "ast_hash": "61ead24dfd8ce5ff4f45e37c217a69cd",
+    "semantic_hash": ""
+  },
+  "src/animations/javascript/spring-animation/SpringAnimation.tsx": {
+    "mtime": 1786776795.7274697,
+    "seen": 1793519374.339966,
+    "ast_hash": "1c8f907c845185417b259f95590fdc14",
+    "semantic_hash": ""
+  },
+  "src/compositions/design-system/DesignSystemShowcase.tsx": {
+    "mtime": 1786864978.785056,
+    "seen": 1793519374.339967,
+    "ast_hash": "75f25349fd68919684212b2240a9d2a0",
+    "semantic_hash": ""
+  },
+  "src/design-system/components/AnimatedIcon.tsx": {
+    "mtime": 1786864978.7857068,
+    "seen": 1793519374.339968,
+    "ast_hash": "67ebe615df1da8fc919cce66326977b4",
+    "semantic_hash": ""
+  },
+  "src/design-system/components/Badge.tsx": {
+    "mtime": 1786864978.7860913,
+    "seen": 1793519374.33997,
+    "ast_hash": "29bc3b8ccafc69d66f798594b3da03a5",
+    "semantic_hash": ""
+  },
+  "src/design-system/components/BrandWatermark.tsx": {
+    "mtime": 1786864978.7865257,
+    "seen": 1793519374.339971,
+    "ast_hash": "03741c06827593a3801ad8b793556d75",
+    "semantic_hash": ""
+  },
+  "src/design-system/components/CodeWindow.tsx": {
+    "mtime": 1786864978.7869136,
+    "seen": 1793519374.3399732,
+    "ast_hash": "ec53a8fcf162fb1388d77ddc8a0407ad",
+    "semantic_hash": ""
+  },
+  "src/design-system/components/ConnectionArrow.tsx": {
+    "mtime": 1786864978.7876966,
+    "seen": 1793519374.339974,
+    "ast_hash": "1fc14047baacb6685729882071871906",
+    "semantic_hash": ""
+  },
+  "src/design-system/components/GlassCard.tsx": {
+    "mtime": 1786864978.7883205,
+    "seen": 1793519374.3399758,
+    "ast_hash": "77fdf1fb38806bdc335690d8d47e05b2",
+    "semantic_hash": ""
+  },
+  "src/design-system/components/Glow.tsx": {
+    "mtime": 1786864978.7892663,
+    "seen": 1793519374.339977,
+    "ast_hash": "cad704edcfec9e82b3e7019f60810a88",
+    "semantic_hash": ""
+  },
+  "src/design-system/components/GridBackground.tsx": {
+    "mtime": 1786864978.7900033,
+    "seen": 1793519374.339978,
+    "ast_hash": "19680aea5e7e7ab451605ecd028004d0",
+    "semantic_hash": ""
+  },
+  "src/design-system/components/SafeArea.tsx": {
+    "mtime": 1786864978.7906737,
+    "seen": 1793519374.3399801,
+    "ast_hash": "a034e268af9873e174329cb8f46795b9",
+    "semantic_hash": ""
+  },
+  "src/design-system/components/Scene.tsx": {
+    "mtime": 1786864978.7912729,
+    "seen": 1793519374.339981,
+    "ast_hash": "a8649176c14aeb02f1702b7d3dbe51c3",
+    "semantic_hash": ""
+  },
+  "src/design-system/components/SceneTitle.tsx": {
+    "mtime": 1786864978.791942,
+    "seen": 1793519374.339983,
+    "ast_hash": "1d8404d0fab643e9b74e57dfe69cad07",
+    "semantic_hash": ""
+  },
+  "src/design-system/components/TerminalWindow.tsx": {
+    "mtime": 1786864978.792681,
+    "seen": 1793519374.339984,
+    "ast_hash": "fc9010af0d06a1a1c9db5959f20b41e5",
+    "semantic_hash": ""
+  },
+  "src/design-system/components/index.ts": {
+    "mtime": 1786864978.7935572,
+    "seen": 1793519374.3399858,
+    "ast_hash": "d8f8c3371c80d6aeea681eb082ac1843",
+    "semantic_hash": ""
+  },
+  "src/design-system/icons/AwsServiceIcon.tsx": {
+    "mtime": 1786864978.795057,
+    "seen": 1793519374.339987,
+    "ast_hash": "c4363e80545768ea4b8558e6875864d9",
+    "semantic_hash": ""
+  },
+  "src/design-system/icons/TechIcon.tsx": {
+    "mtime": 1786864978.795552,
+    "seen": 1793519374.339989,
+    "ast_hash": "bdb2b37d82ddc1ee842733b837adb0c2",
+    "semantic_hash": ""
+  },
+  "src/design-system/icons/TechLogo.tsx": {
+    "mtime": 1786864978.7960713,
+    "seen": 1793519374.33999,
+    "ast_hash": "2c29ce8a9ff7cd8a049568f1537cd411",
+    "semantic_hash": ""
+  },
+  "src/design-system/icons/index.ts": {
+    "mtime": 1786864978.7965527,
+    "seen": 1793519374.339992,
+    "ast_hash": "41ac198e8b2938a783cbfa6c82034545",
+    "semantic_hash": ""
+  },
+  "src/design-system/icons/registry.ts": {
+    "mtime": 1786864978.7969446,
+    "seen": 1793519374.339993,
+    "ast_hash": "fb86953989ab4727134924bd28a9d9bf",
+    "semantic_hash": ""
+  },
+  "src/design-system/index.ts": {
+    "mtime": 1786864978.7973986,
+    "seen": 1793519374.339995,
+    "ast_hash": "8fa94ab28300c2ed8f40d37d95431e39",
+    "semantic_hash": ""
+  },
+  "src/design-system/tokens/colors.ts": {
+    "mtime": 1786864978.7979333,
+    "seen": 1793519374.3399959,
+    "ast_hash": "4d4c84351da3c26be9ad91c9397b2187",
+    "semantic_hash": ""
+  },
+  "src/design-system/tokens/index.ts": {
+    "mtime": 1786864978.7985344,
+    "seen": 1793519374.339998,
+    "ast_hash": "592c970211c14cefd524ccf59d956add",
+    "semantic_hash": ""
+  },
+  "src/design-system/tokens/motion.ts": {
+    "mtime": 1786864978.7994242,
+    "seen": 1793519374.339999,
+    "ast_hash": "bb2db927c07073b8a5e5c0e68e779f95",
+    "semantic_hash": ""
+  },
+  "src/design-system/tokens/radii.ts": {
+    "mtime": 1786864978.8000665,
+    "seen": 1793519374.340001,
+    "ast_hash": "aa30729a1513f891c67dcaa64febbc1e",
+    "semantic_hash": ""
+  },
+  "src/design-system/tokens/shadows.ts": {
+    "mtime": 1786864978.8006768,
+    "seen": 1793519374.340002,
+    "ast_hash": "d7be63527aae33ad820d1e6332d9c4be",
+    "semantic_hash": ""
+  },
+  "src/design-system/tokens/spacing.ts": {
+    "mtime": 1786864978.8016658,
+    "seen": 1793519374.340003,
+    "ast_hash": "3652efe9a342b198d773fd54e3db6162",
+    "semantic_hash": ""
+  },
+  "src/design-system/tokens/typography.ts": {
+    "mtime": 1786864978.8026934,
+    "seen": 1793519374.3400052,
+    "ast_hash": "3f761eadedabbc1b56d9c829bbe385d9",
+    "semantic_hash": ""
+  },
+  "src/index.ts": {
+    "mtime": 1785488538.0,
+    "seen": 1793519374.3400059,
+    "ast_hash": "d92d9dee1ab16aa44a75ae7fbfb843ca",
+    "semantic_hash": ""
+  },
+  "tsconfig.json": {
+    "mtime": 1785488538.0,
+    "seen": 1793519374.340008,
+    "ast_hash": "3f9d94814358aa5e8a039f53ae3eee99",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1786740466.1986558,
+    "seen": 1793519374.340009,
+    "ast_hash": "5cd430e1ceb471d6bd0b1d7525010046",
+    "semantic_hash": ""
+  },
+  "RULE.md": {
+    "mtime": 1786959944.4296486,
+    "seen": 1793519374.3400111,
+    "ast_hash": "a15db0bc3c2dbcae04d54312ba041ed0",
+    "semantic_hash": ""
+  }
+}
