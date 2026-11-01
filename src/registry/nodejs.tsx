@@ -1,4 +1,4 @@
-import {Composition} from "remotion";
+import { Composition, Folder } from "remotion";
 import {
   NODE_TYPESCRIPT_DURATION,
   NodeTypeScriptExecution,
@@ -7,14 +7,16 @@ import {
 export const NodeJsCompositions = () => {
   return (
     <>
-      <Composition
-        id="NodeTypeScriptExecution"
-        component={NodeTypeScriptExecution}
-        durationInFrames={NODE_TYPESCRIPT_DURATION}
-        fps={30}
-        width={1080}
-        height={1920}
-      />
+      <Folder name="NodeJS">
+        <Composition
+          id="NodeTypeScriptExecution"
+          component={NodeTypeScriptExecution}
+          durationInFrames={NODE_TYPESCRIPT_DURATION}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+      </Folder>
     </>
   );
 };
