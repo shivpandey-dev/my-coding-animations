@@ -1,4 +1,17 @@
-// Registry for src/animations/aws. Only the Aws branch edits this file.
+import {Composition} from "remotion";
+import {Aws12Services} from "../aws-12-services/Aws12Services";
+
 export const AwsCompositions = () => {
-  return <></>;
+  return (
+    <>
+      <Composition
+        id="Aws12Services"
+        component={Aws12Services}
+        durationInFrames={1800}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+    </>
+  );
 };
